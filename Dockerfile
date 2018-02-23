@@ -1,12 +1,6 @@
 FROM node
 
-RUN mkdir -p /apps/jenkins_test
-
-WORKDIR /apps/jenkins_test
-
-COPY . /apps/jenkins_test
-
-RUN npm install
+WORKDIR /home/test
 
 EXPOSE 3002
 
