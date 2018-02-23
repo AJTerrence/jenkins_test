@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=production node app.js",
+    "start": "npm install . && node app.js",
     "dev": "NODE_ENV=development ./node_modules/.bin/nodemon app.js",
     "prd": "NODE_ENV=production pm2 start app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
