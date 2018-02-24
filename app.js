@@ -23,7 +23,7 @@ app.use(async (ctx, next) => {
 })
 
 
-router.get('/api/broad', async function(ctx){
+router.get('/api/at', async function(ctx){
 	ctx.status = 200;
 	ctx.body = {code:0,msg:'success'}
 })
